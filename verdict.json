@@ -1,0 +1,16 @@
+{
+  "case": "L2 → L1 nested call",
+  "sequence": [
+    "CALL B on L2",
+    "CALL C on L1",
+    "REVERT on L2",
+    "REVERT_CONTINUE on L1"
+  ],
+  "final": "REVERT",
+  "signature": {
+    "scheme": "Dilithium",
+    "pubkey": "0xPQC_PUBLIC_KEY_STUB",
+    "sig": "0xPQC_SIGNATURE_STUB"
+  }
+}
+
