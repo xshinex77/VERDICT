@@ -1,0 +1,10 @@
+# Python
+__pycache__/
+*.pyc
+
+# Foundry
+forge/out/
+forge/cache/
+
+# OS
+.DS_Store
